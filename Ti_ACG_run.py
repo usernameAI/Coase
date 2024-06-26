@@ -5,7 +5,7 @@ from Ti_ACG import Ti_ACG
 from recbole_gnn.config import Config
 from recbole_gnn.utils import create_dataset, data_preparation, get_model, get_trainer
 
-config = Config(model=MIDAS, dataset='diginetica', config_file_list=['MIDAS.yaml'])
+config = Config(model=Ti_ACG, dataset='diginetica', config_file_list=['Ti_ACG.yaml'])
 init_seed(config['seed'], config['reproducibility'])
 init_logger(config)
 logger = getLogger()
