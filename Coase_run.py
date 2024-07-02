@@ -1,11 +1,11 @@
 from logging import getLogger
 from recbole.utils import init_logger, init_seed
 from recbole.trainer import Trainer
-from ACG import ACG
+from Coase import Coase
 from recbole_gnn.config import Config
 from recbole_gnn.utils import create_dataset, data_preparation, get_model, get_trainer
 
-config = Config(model=ACG, dataset='diginetica', config_file_list=['ACG.yaml'])
+config = Config(model=Coase, dataset='diginetica', config_file_list=['Coase.yaml'])
 init_seed(config['seed'], config['reproducibility'])
 init_logger(config)
 logger = getLogger()
