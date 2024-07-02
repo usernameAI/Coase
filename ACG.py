@@ -335,11 +335,11 @@ class gate_mechanism(nn.Module):
         return output
 
 
-class Ti_ACG(SequentialRecommender):
+class ACG(SequentialRecommender):
     input_type = InputType.POINTWISE
 
     def __init__(self, config, dataset):
-        super(Ti_ACG, self).__init__(config, dataset)
+        super(ACG, self).__init__(config, dataset)
         self.dropout = config['dropout']
         self.embedding_size = config['embedding_size']
         self.device = config['device']
