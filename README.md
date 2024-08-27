@@ -3,7 +3,7 @@ This is an implemention for our paper based on Pytorch
 
 Collaborative Graph-Sequence Learning for Session-based Recommendation
 
-by Weiyue Li, Zhiguo Zhu, Bowei Chen, Ming Gao, Hao Dong, Jingmin An, Cheng Chen, Weiguo Fan
+by Weiyue Li, Bowei Chen, Ming Gao, Jingmin An, Hao Dong, Cheng Chen, Weiguo Fan, Zhiguo Zhu
 
 # Dataset
 We provide one dataset: Diginetica. 
