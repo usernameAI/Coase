@@ -1,9 +1,9 @@
 # Coase
 This is an implemention for our paper based on Pytorch
 
-Collaborative Graph-Sequence Learning for Session-based Recommendation
+Collaborative local-global context modeling for session-based recommendation
 
-by Weiyue Li, Bowei Chen, Ming Gao, Jingmin An, Hao Dong, Cheng Chen, Weiguo Fan, Zhiguo Zhu
+This paper is currently under anonymous peer review.
 
 # Dataset
 We provide one dataset: Diginetica. 
