@@ -3,7 +3,7 @@ This is an implemention for our paper based on Pytorch
 
 Collaborative local-global context modeling for session-based recommendation
 
-This paper is currently under peer review.
+This paper is just accepted by Information Processing and Management.
 
 # Dataset
 We provide one dataset: Diginetica. 
